@@ -1,0 +1,67 @@
+1.Nguyên lí hoạt động của Java
+
+File code trong Java sẽ được lưu dưới dạng [tên-class].java
+Khi code được xem như là hoàn thành, bạn cần thực thi mã code bạn viết ra.Trình biên dịch tiến hành compile(translalte) mã nguồn thành mã máy dưới dạng byte code.
+Là từ mà nguồn dạng [tên-class].java sẽ được biên dịch thành [tên-class].class.
+Cuối cùng, file Java  dạng [tên-class].class sẽ được thực thi tại bất cứ hệ điều hành nào, từ Windows, Linux đến MacOs.
+
+2.Các kiểu dữ liệu của Java
+
+- Byte : 1 byte
+Lưu trữ các số nguyên từ -128 đến 127
+
+- Short : 2 bytes
+Lưu trữ các số nguyên từ -32,768 đến 32,767
+
+-Int : 4 bytes
+Lưu trữ các số nguyên từ -2,147,483,648 đến 2,147,483,647
+
+-Long : 8 bytes
+Lưu trữ các số nguyên từ -9,223,372,036,854,775,808 đến 9,223,372,036,854,775,807
+
+-Float : 4 bytes
+Lưu trữ số phân số từ 6 đến 7 số thập phân
+
+-Double : 8 bytes
+Lưu trữ được 15 số thập phân
+
+-Boolean : 1 bit
+Lưu trữ giá trị đúng hoặc sai
+
+-Char : 2 bytes
+Lưu trữ một ký tự / chữ cái hoặc các giá trị ASCII
+
+3.Các lệnh Git cơ bản
+
+-Git init : đây là lệnh để bạn bắt đầu tạo một git repository rỗng tại folder hiện tại. 
+     Về căn bản, khi chạy lệnh này, một thư mực .git và các thu mục con liên quan sẽ được tạo ra tai thư mục hiện tại.
+
+-Git clone<url> : git clone cũng là một lệnh rất thông dụng để bắt đầu với git. 
+     Khác với git init là khởi tạo git repository cho thư mục hiện tại thì git clone sẽ clone 1 repository đã được tạo sẵn về thư mục của bạn. 
+     Repository này sẽ được xác định ở tham số của git clone. 
+
+-Git add<files> : khi chúng ta thực hiện thay đổi trong repository (thêm/xóa/sửa file) những thay đổi này chỉ được thực hiện ở local. 
+     Đế thêm những thay đổi này vào repository, chúng ta cần dùng lệnh git add.
+
+-Git commit : đây là lệnh được dùng nhiều nhất trong quá trình sử dụng git.
+     Khi chúng ta hoàn thành 1 task hoặc xử lý xong 1 issue nào đó, chúng ta cần lưu lại những gì mình đã làm. git commit có tác dụng ghi thay đổi này vào repository. 
+     Điều này giống như chúng ta tạo ra 1 checkpoint trong quá trình làm việc và có thể quay lại checkpoint này bất cứ lúc nào.
+
+-Git push : sau khi commit những thay đổi, repository đã được cập nhật nhưng chỉ ở local, chúng ta cần gửi những thay đổi này lên remote server. 
+     Việc này sẽ được thực hiện bởi lệnh git push.
+
+-Git pull : git pull có tác dụng cập nhật những thay đổi trên remote repository về local. 
+     Nó là sự kết hợp của 2 lệnh git fetch và git merge.  
+     Cụ thể là khi pull, chúng ta cập nhật từ remote repository (git fetch) và đồng thời apply những thay đổi mới nhất vào local (git merge).
+
+-Git branch : Lệnh git branch được dùng để chúng ta thao tác với branch như tạo mới branch, xóa branch hoặc list ra các branch hiện có.
+
+-Git checkout : git checkout cũng là một trong những lệnh được dùng nhiều nhất. 
+     Để làm việc với branch, chúng ta cần switch đến branch đó. 
+     Vì vậy chúng ta cần dùng git checkout để chuyển qua branch cần thiết, đồng thời có thể kiểm tra files và commit.
+
+
+
+
+
+
